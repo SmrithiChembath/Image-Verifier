@@ -167,13 +167,17 @@
       <img src="https://i.postimg.cc/wjNykPH3/temp-Imageq-VJn-ND.avif" alt="Datathon Logo" class="logo" />
     </div>
     <h1>🔍 Image Verifier</h1>
-    <p class="description">Upload any image to detect if it's real or fake,<br>from the three present categories of Animal, Human, or Vehicle.</p>
+    <p class="description">Upload any image to detect if it's real or fake,<br>from the three present categories ( Animal, Human, or Vehicle )</p>
 
     <form id="uploadForm" method="POST" action="/predict" enctype="multipart/form-data">
       <input type="file" name="image" id="imageInput" required />
+      <p style="color: #facc15; font-size: 0.9rem; margin-top: 5px;">
+        📸 Please upload a clear image for better prediction results.
+      </p>
       <br>
       <button type="submit">Predict</button>
     </form>
+    
 
     <div class="footer">⚡ Powered by Shamrock | Part of Datathon 2025</div>
 
