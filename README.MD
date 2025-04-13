@@ -11,7 +11,7 @@
 ---
 
 ### Dataset
-- Based on a subset of the **ArtiFact_240K** dataset.
+- Based on a subset of the [**ArtiFact_240K** dataset.](https://github.com/AbhijitChallapalli/ArtiFact_240K)
 - Labels: `real (1)` or `fake (0)` + domain (`animal`, `vehicle`, `human`).
 - Applied transforms: resizing, normalization, random flip/rotation for augmentation.
 
